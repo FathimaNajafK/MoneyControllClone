@@ -32,5 +32,118 @@ h3{
 .button:hover {
   background-color: #FF8C00; /* Darker shade of orange on hover */
 }
+.mr-4{
+  margin-right: 10px; 
+}
+.mb-4{
+  margin-bottom: 10px; 
+}
+.selectionButton {
+  background-color: #fff2e1;
+  color: #2e48a5;
+  padding: 5px;
+  border: 0;
+}
+.selectionButton:hover {
+  color: #fff2e1;
+  background-color: #2e48a5;
+  
+}
+.subselectionButton {
+  color: #000000;
+  padding: 5px;
+  border: 0;
+}
+.subselectionButton:hover {
+  color: #ff9100;
+  
+}
+.allign-flex-left {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+.lightgreybackground{
+  background-color: #f6f8ff;
+  margin: 10px;
+  width: 95%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
+input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="date"] {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="number"] {
+  width: 120px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select{
+  background-color: white;
+  width: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+.font-color-grey {
+  color: #5c5c5c;
+}
+.font-blue-underline {
+  color: #4164e2;
+  text-decoration: underline;
+  font-size: small;
+  cursor: pointer;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.centerElement {
+  display: flex;
+  justify-content: center;
+}
+.btn-blue {
+  background-color: #4164e2;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.btn-blue:hover {
+  background-color: white;
+  color: #4164e2;
+}
+.btn-blue-op {
+  background-color: white;
+  color: #4164e2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.btn-blue-op:hover {
+  background-color: #4164e2;
+  color: white;
+}
+
+.hrCenter{
+  color: #dedede;
+  margin-right: 20px;
+  width: 100%;
+}
