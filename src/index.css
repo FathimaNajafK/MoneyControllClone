@@ -5,5 +5,32 @@
 
 .flex-display {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
+
+h4 {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+h3{
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.spacing {
+  width: 10px; /* Adjust as needed */
+}
+
+.button {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #FF8C00; /* Darker shade of orange on hover */
+}
+
 
